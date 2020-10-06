@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bus-layout{
+            width:400px;
+            height:600px;
+            border:2px solid black;
+        }
+        .row{
+            width: 90%;
+            height: 40px;
+            margin: 0 auto;
+            border: 2px dotted red;
+        }
+        .chair{
+            width:18%;
+            height: 35px;
+            background: burlywood;
+            display: inline-block;
+        }
+        .chair span{
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+            height: 100%;
+            line-height: 35px;
+        }
+        .disabled{
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="bus-layout">
+      <div class="row">
+          <div class="chair">
+              <span>1</span>
+          </div>
+          <div class="chair">
+            <span>2</span>
+          </div>
+          <div class="chair disabled">
+            <span>&nbsp;</span>
+          </div>
+          <div class="chair">
+            <span>3</span>
+          </div>
+          <div class="chair">
+            <span>4</span>
+          </div>
+
+      </div>
+    </div>
+   
+</body>
+</html>
